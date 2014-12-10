@@ -2,7 +2,7 @@ picker = angular.module('daterangepicker', [])
 
 picker.value('dateRangePickerConfig',
     separator: ' - '
-    format: 'YYYY-MM-DD'
+    format: 'MM/DD/YYYY'
 )
 
 picker.directive('dateRangePicker', ($compile, $timeout, $parse, dateRangePickerConfig) ->

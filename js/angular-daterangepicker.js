@@ -5,7 +5,7 @@
 
   picker.value('dateRangePickerConfig', {
     separator: ' - ',
-    format: 'YYYY-MM-DD'
+    format: 'MM/DD/YYYY'
   });
 
   picker.directive('dateRangePicker', ['$compile', '$timeout', '$parse', 'dateRangePickerConfig', function($compile, $timeout, $parse, dateRangePickerConfig) {
